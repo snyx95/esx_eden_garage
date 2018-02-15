@@ -22,7 +22,7 @@ Operation:
 The yellow circle to go out / back vehicule / recuperer vehicle (in case of depop this one)
 To fit a vehicle, put it in the red circle then go into the yellow circle and bring in the vehicle
 
-#My edits
+# My edits
 
 - Translated to English
 - Removed pay option from menu
