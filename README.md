@@ -22,3 +22,11 @@ Operation:
 The yellow circle to go out / back vehicule / recuperer vehicle (in case of depop this one)
 To fit a vehicle, put it in the red circle then go into the yellow circle and bring in the vehicle
 
+#My edits
+
+- Translated to English
+- Removed pay option from menu
+- Moved menus to bottom right
+- Added garage points to all major apartment buildings in esx_properties
+- Added garage point to Mission Row PD for cops coming to work
+- Added Sandy Shores garage point
