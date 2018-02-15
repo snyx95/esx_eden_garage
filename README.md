@@ -29,7 +29,7 @@ During a reboot all vehicles go back home.
 To put the vehicle in the garage:
 - Pull into the red dot
 - Get out of the car, open the menu
-- Select "Put Vehicle In Garage"
+- Select "Put Vehicle In Garage"<br />
 **NOTE**
 You can put the vehicle in the garage while sitting in it.
 
