@@ -139,7 +139,14 @@ function ListVehiclesMenu()
 				menu.close()
 				SpawnVehicle(data.current.value.vehicle)
 			else
-				TriggerEvent('esx:showNotification', 'Your vehicle is already out')
+				--TriggerEvent('esx:showNotification', 'Your vehicle is already out')
+				TriggerEvent("pNotify:SendNotification",{
+					text = "Garage Notification: <br /> Your car is already out!",
+					type = "success",
+					timeout = (5000),
+					layout = "centerLeft",
+					queue = "global"
+				})
 			end
 		end,
 		function(data, menu)
@@ -165,13 +172,34 @@ function StockVehicleMenu()
 				TriggerServerEvent('eden_garage:debug', vehicle)
 				DeleteVehicle(vehicle)
 				TriggerServerEvent('eden_garage:modifystate', vehicleProps, true)
-				TriggerEvent('esx:showNotification', 'Your vehicle is in the garage')
+				--TriggerEvent('esx:showNotification', 'Your car is in the garage')
+				TriggerEvent("pNotify:SendNotification",{
+					text = "Garage Notification: <br /> Your car is in the garage!",
+					type = "success",
+					timeout = (5000),
+					layout = "centerLeft",
+					queue = "global"
+				})
 			else
-				TriggerEvent('esx:showNotification', 'Your car is in the garage')
+				--TriggerEvent('esx:showNotification', 'Your car is in the garage')
+				TriggerEvent("pNotify:SendNotification",{
+					text = "Garage Notification: <br /> Your don't own this car!",
+					type = "success",
+					timeout = (5000),
+					layout = "centerLeft",
+					queue = "global"
+				})
 			end
 		end,vehicleProps)
 	else
-		TriggerEvent('esx:showNotification', 'Your car needs to be in the red dot')
+		--TriggerEvent('esx:showNotification', 'Your car needs to be in the red dot')
+		TriggerEvent("pNotify:SendNotification",{
+			text = "Garage Notification: <br /> Your car needs to be in the white marker!",
+			type = "success",
+			timeout = (5000),
+			layout = "centerLeft",
+			queue = "global"
+		})
 	end
 
 end
