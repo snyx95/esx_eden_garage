@@ -81,6 +81,24 @@ Config.Garages = {
 			Marker = 1
 		}, 	
 	},
+	MadrazoHouse = {	
+		Pos = {x= 1369.0, y= 1149.0, z= 112.5},
+		Size  = {x = 3.0, y = 3.0, z = 1.0},
+		Color = {r=255,g=255,b=255},
+		Marker = 1,
+		SpawnPoint = {
+			Pos = {x= 1369.0, y= 1149.0, z= 112.5},
+			Color = {r=255,g=255,b=255},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1
+		},
+		DeletePoint = {
+			Pos = {x= 1369.0, y= 1149.0, z= 112.5},
+			Color = {r=255,g=255,b=255},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1
+		}, 	
+	},
 	SandyShores = {	
 		Pos = {x= 1723.0, y= 3713.0, z=33.0},
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
