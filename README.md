@@ -3,9 +3,12 @@
 - Translated to English
 - Removed pay option from menu
 - Moved menus to bottom right
+- each garage uses 3 markers to work.  I overlapped them to make one so that I could put them in small areas
 - Added garage points to all major apartment buildings in esx_properties
 - Added garage point to Mission Row PD for cops coming to work
 - Added Sandy Shores garage point
+
+# End my edits (original readme below)
 
 # esx_eden_garage
 Private garage based on ESX
@@ -30,8 +33,6 @@ To put the vehicle in the garage:
 - Pull into the red dot
 - Get out of the car, open the menu
 - Select "Put Vehicle In Garage"<br />
-**NOTE**
-You can put the vehicle in the garage while sitting in it.
 
 To take it back out
 - Walk into the red dot
