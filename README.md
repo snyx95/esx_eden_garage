@@ -7,6 +7,7 @@
 - Added garage points to all major apartment buildings in esx_properties
 - Added garage point to Mission Row PD for cops coming to work
 - Added Sandy Shores garage point
+- Now requires [pNotify](https://forum.fivem.net/t/release-pnotify-in-game-js-notifications-using-noty/20659)
 
 # End my edits (original readme below)
 
