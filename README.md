@@ -1,24 +1,41 @@
+# My edits
+
+- Translated to English
+- Removed pay option from menu
+- Moved menus to bottom right
+- each garage uses 3 markers to work.  I overlapped them to make one so that I could put them in small areas
+- Added garage points to all major apartment buildings in esx_properties
+- Added garage point to Mission Row PD for cops coming to work
+- Added Sandy Shores garage point
+- Now requires [pNotify](https://forum.fivem.net/t/release-pnotify-in-game-js-notifications-using-noty/20659)
+
+# End my edits (original readme below)
+
 # esx_eden_garage
-Garage privé basé sur ESX
+Private garage based on ESX
 
-Requirement : 
-fxserver-esx_vehicleshop
+# Requirement:
+FXServer-esx_vehicleshop
 
-Le garage prends en compte uniquement les véhicules achetés dans le concessionaire et aussi les véhicules qui sont dehors ou non.
-Lors d'un reboot tous les véhicules passe en rentré.
+The garage only takes into account the vehicles purchased in the dealership and also the vehicles that are outside or outside.
+During a reboot all vehicles go back home.
 
-1) Il faut appliquer le SQL
-2) Mettre la resource dans votre server.cfg
-3) Modifier la config pour ajouter garage ou modifier
+1) It is necessary to apply the SQL
+2) Put the resource in your server.cfg
+3) Edit the config to add garage or edit
 
-BUG CONNU :
+# KNOWN BUG:
 
-- Certains véhicules sont impossible à rentrer
-- En cherchant bien il est possible de dupliquer les véhicules
+- Some vehicles are impossible to enter
+- By looking good it is possible to duplicate vehicles
 
-Nous travaillons dessus. 
+# How to use my version
+To put the vehicle in the garage:
+- Pull into the red dot
+- Get out of the car, open the menu
+- Select "Put Vehicle In Garage"<br />
 
-Fonctionnement :
-Le cercle jaune pour sortir / rentrer vehicule / recuperer vehicule ( en cas de depop de celui ci )
-Pour rntrer un vehicule, le mettre dans le rond rouge puis aller dans le rond jaune et faire rentrer vehicule
-
+To take it back out
+- Walk into the red dot
+- Open the menu
+- Select "Get Vehicle From Garage"
